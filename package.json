@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "start": "webpack-dev-server --config webpack.dev.config.js",
+    "start": "yarn build:style-typings && webpack-dev-server --config webpack.dev.config.js",
     "build": "rimraf dist && webpack --config webpack.prod.config.js --progress --profile --colors",
     "prod": "cd ./dist/ && http-server",
     "prettier:write": "yarn prettier --write '**/*.{ts,js,css,html}'",

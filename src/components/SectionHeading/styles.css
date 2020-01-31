@@ -1,0 +1,18 @@
+.HeadingContainer {
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor:pointer;
+}
+
+.HeadingTitle {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.Sign {
+  width: 10%;
+}
