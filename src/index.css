@@ -1,0 +1,15 @@
+:root {
+  --dark-red: #902724;
+  --light-red: #f23c27;
+  --yellow: #f7d281;
+  --light-blue: #1b729f;
+  --dark-blue: #1a323e;
+}
+
+body {
+  background: var(--yellow);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.932);
+}

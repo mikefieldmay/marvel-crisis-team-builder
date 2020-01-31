@@ -1,0 +1,26 @@
+@import "../../index.css";
+
+.ItemContainer {
+  border-radius: 10px;
+  cursor: pointer;
+  list-style: none;
+  background-color: var(--light-blue);
+  width: 90%;
+  margin: 2px auto;
+  text-align: center;
+  height: 50px;
+  border: 2px solid black;
+}
+
+.ItemContainer:hover {
+  background-color: var(--dark-blue);
+}
+
+.ItemContainer:active {
+  background-color: var(--dark-red);
+}
+
+.Title {
+  line-height: 50px;
+  margin: 0;
+}
