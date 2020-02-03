@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 
 import { CharacterList } from "./components/CharacterList/CharacterList";
+import { CrisisTeam } from "./hooks/context";
 
 export class App extends Component {
   render() {
     return (
-      <div>
+      <CrisisTeam initialValues={null}>
         <CharacterList />
-      </div>
+      </CrisisTeam>
     );
   }
 }
