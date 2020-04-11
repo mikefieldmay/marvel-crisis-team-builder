@@ -10,7 +10,7 @@ const defaultContext: CrisisTeamContext = {
 
 const CrisisTeamContext = createContext<CrisisTeamContext>(defaultContext);
 
-export const CrisisTeam: React.FC<{initialValues: CrisisTeamContext | undefined}> = ({ children, initialValues }) => {
+export const CrisisTeam: React.FC<{initialValues: CrisisTeamContext}> = ({ children, initialValues }) => {
 
   return (
     <CrisisTeamContext.Provider value={initialValues || defaultContext}>

@@ -10,6 +10,24 @@ body {
   background: var(--yellow);
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: rgba(255, 255, 255, 0.932);
+}
+
+.Background {
+  height: 600px;
+  width: 100%;
+  color: purple;
+}
+
+.Inner {
+  height: 300px;
+  box-sizing: border-box;
+}
+
+.Box {
+  width: 400px;
+  height: 400px;
+  margin: -200px auto;
+  border: 1px solid black;
 }
