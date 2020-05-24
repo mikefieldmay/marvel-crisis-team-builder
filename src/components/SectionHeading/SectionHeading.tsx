@@ -11,7 +11,9 @@ export const SectionHeading: React.FC<{
   return (
     <div className={styles.HeadingContainer} onClick={onClick}>
       <h1 className={styles.HeadingTitle}>{title}</h1>
-  <span className={styles.Sign}>{ sectionShowing ? <Minus /> : <Plus />}</span>
+      <span className={styles.Sign}>
+        {sectionShowing ? <Minus /> : <Plus />}
+      </span>
     </div>
   );
 };

@@ -18,9 +18,11 @@ export const CharacterList: React.FC = () => {
         onClick={() => setCharactersShowing(!charactersShowing)}
         sectionShowing={charactersShowing}
       />
-      {charactersShowing && (
-        <ol className={styles.CharacterListContainer}>{characterList}</ol>
-      )}
+      <div className={styles.CharacterContainer}>
+        {charactersShowing && (
+          <ol className={styles.CharacterListContainer}>{characterList}</ol>
+        )}
+      </div>
     </>
   );
 };

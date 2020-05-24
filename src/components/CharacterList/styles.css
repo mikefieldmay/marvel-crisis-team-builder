@@ -2,3 +2,14 @@
   width: 100%;
   padding: 0;
 }
+
+.CharacterContainer {
+  display: flex;
+}
+
+@media (min-width: 1024px) {
+  .CharacterContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

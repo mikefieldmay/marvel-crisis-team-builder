@@ -1,26 +1,52 @@
 @import "../../index.css";
 
 .ItemContainer {
-  border-radius: 10px;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
   list-style: none;
-  background-color: var(--light-blue);
-  width: 90%;
+  width: 100%;
   margin: 2px auto;
   text-align: center;
   height: 50px;
-  border: 2px solid black;
+  position: relative;
 }
 
-.ItemContainer:hover {
-  background-color: var(--dark-blue);
-}
-
-.ItemContainer:active {
-  background-color: var(--dark-red);
+.CharacterInfo {
+  display: flex;
+  width: 320px;
+  margin-left: 40px;
+  align-items: center;
+  height: 32px;
+  background: black;
 }
 
 .Title {
-  line-height: 50px;
   margin: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1;
+  height: 24px;
+}
+
+.Title::after {
+  position: absolute;
+  right: 1px;
+  bottom: 9px;
+  content: "";
+  border-bottom: 16px solid transparent;
+  border-left: 16px solid black;
+  border-top: 16px solid black;
+  border-right: 16px solid transparent;
+}
+.ThreatLevel {
+  color: var(--threat-blue);
+  padding: 0 16px;
+}
+
+.Threat {
+  position: relative;
+  height: 100%;
+  width: 48px;
+  position: absolute;
 }

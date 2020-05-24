@@ -4,20 +4,20 @@
   --yellow: #f7d281;
   --light-blue: #1b729f;
   --dark-blue: #1a323e;
+  --threat-blue: #2da8ec;
 }
 
 body {
   background: var(--yellow);
   margin: 0;
   padding: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Anton", sans-serif;
   color: rgba(255, 255, 255, 0.932);
 }
 
 .Background {
   height: 600px;
   width: 100%;
-  color: purple;
 }
 
 .Inner {
