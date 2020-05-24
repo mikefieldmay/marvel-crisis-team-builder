@@ -12,15 +12,17 @@ export const Threat: React.FC = () => (
         fill="#2DA8EC"
       />
       <path
+        stroke="#000"
         fill="none"
         d="M.847 11.961l5.34.06M7.219 8.216l-1.5 3.812M10.344 20.653L7.094 8.591M12.844 4.153l-2.563 16.375"
       />
       <path
+        stroke="#000"
         strokeWidth="null"
         fill="none"
         d="M12.8 4.27l3.838 11.516M16.344 15.591l2.25-3.938"
       />
-      <path fill="none" d="M18.344 12.028l5.25.063" />
+      <path stroke="#000" fill="none" d="M18.344 12.028l5.25.063" />
     </g>
   </svg>
 );
