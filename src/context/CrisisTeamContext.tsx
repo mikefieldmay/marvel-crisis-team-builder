@@ -1,20 +1,35 @@
 import React, { createContext, useContext, useReducer } from "react";
 
-export interface CrisisTeamContext {
-  selectedHeroes: string[];
-}
+import { State } from "./reducer";
+import { characters } from "../fixtures";
 
-export const defaultContext: CrisisTeamContext = {
-  selectedHeroes: []
+const initialState: State = {
+  availableCharacters: characters,
+  selectedCharacters: []
 };
 
+export const CrisisContext = createContext<{
+  state: State;
+  dispatch: React.Dispatch<any>;
+}>({
+  state: initialState,
+  dispatch: () => null
+});
 
-export const CrisisContext = createContext<CrisisTeamContext>(defaultContext);
+export const CrisisProvider = ({
+  reducer,
+  children
+}: {
+  reducer: any;
+  children: JSX.Element;
+}) => {
+  const [state, dispatch] = useReducer(reducer, initialState);
 
-export const CrisisProvider = ({ reducer, initialState, children }: {reducer: any, initialState: CrisisTeamContext, children: JSX.Element}) => (
-  <CrisisContext.Provider value={useReducer<any>(reducer, initialState) as any}>
-    {children}
-  </CrisisContext.Provider>
-);
+  return (
+    <CrisisContext.Provider value={{ state, dispatch }}>
+      {children}
+    </CrisisContext.Provider>
+  );
+};
 
 export const useStateValue = () => useContext(CrisisContext);

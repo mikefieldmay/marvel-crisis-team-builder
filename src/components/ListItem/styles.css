@@ -18,6 +18,11 @@
   align-items: center;
   height: 32px;
   background: black;
+  cursor: pointer;
+}
+
+.CharacterInfo:hover {
+  color: var(--threat-blue);
 }
 
 .Title {
@@ -29,11 +34,7 @@
   height: 24px;
 }
 
-.Title::after {
-  position: absolute;
-  right: 1px;
-  bottom: 9px;
-  content: "";
+.Triangle {
   border-bottom: 16px solid transparent;
   border-left: 16px solid black;
   border-top: 16px solid black;
@@ -49,4 +50,8 @@
   height: 100%;
   width: 48px;
   position: absolute;
+}
+
+.Selected {
+  color: var(--threat-red);
 }

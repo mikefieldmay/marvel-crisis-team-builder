@@ -1,23 +1,31 @@
 import { ADD_CHARACTER_TO_ROSTER } from "./actions";
-import { CrisisTeamContext } from "./CrisisTeamContext";
+import { Character } from "../types";
 
-interface Action {
-  type: string
-  payload?: any
+export interface Action {
+  type: string;
+  payload?: any;
 }
 
-export const defaultState: CrisisTeamContext = {
-  selectedHeroes: []
+export interface State {
+  availableCharacters: Character[];
+  selectedCharacters: Character[];
 }
 
-export const reducer = (state: CrisisTeamContext, action: Action) => {
+export const reducer = (state: State, action: Action) => {
   switch (action.type) {
     case ADD_CHARACTER_TO_ROSTER:
+      const character = [...state.availableCharacters].find(
+        character => character.id === action.payload
+      );
+      const updatedAvailableCharacters = [...state.availableCharacters].filter(
+        character => character.id !== action.payload
+      );
       return {
         ...state,
-        selectedHeroes: [...state.selectedHeroes, action.payload]
-      }
+        availableCharacters: updatedAvailableCharacters,
+        selectedCharacters: [...state.selectedCharacters, character]
+      };
     default:
       return state;
-    }
+  }
 };

@@ -1,10 +1,11 @@
 :root {
   --dark-red: #902724;
   --light-red: #f23c27;
-  --yellow: #f7d281;
+  --yellow: #f8ca1a;
   --light-blue: #1b729f;
   --dark-blue: #1a323e;
   --threat-blue: #2da8ec;
+  --threat-red: #c64444;
 }
 
 body {

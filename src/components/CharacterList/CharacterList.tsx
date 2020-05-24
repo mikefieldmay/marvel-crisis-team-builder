@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 
-import { characters } from "./fixtures/characters";
+import { Character } from "../../types";
 import { ListItem } from "../ListItem/ListItem";
 import { SectionHeading } from "../SectionHeading/SectionHeading";
 
 import * as styles from "./styles.css";
+import { useStateValue } from "../../context/CrisisTeamContext";
 
 export const CharacterList: React.FC = () => {
   const [charactersShowing, setCharactersShowing] = useState(true);
-  const characterList = characters.map(({ name, id }) => (
-    <ListItem key={id} title={name} />
-  ));
+  const {
+    state: { selectedCharacters, availableCharacters }
+  } = useStateValue();
   return (
     <>
       <SectionHeading
@@ -20,7 +21,19 @@ export const CharacterList: React.FC = () => {
       />
       <div className={styles.CharacterContainer}>
         {charactersShowing && (
-          <ol className={styles.CharacterListContainer}>{characterList}</ol>
+          <>
+            <ol className={styles.CharacterListContainer}>
+              {availableCharacters.map((character: Character) => (
+                <ListItem key={character.id} character={character} />
+              ))}
+            </ol>
+            <div />
+            <ol className={styles.CharacterListContainer}>
+              {selectedCharacters.map((character: Character) => (
+                <ListItem key={character.id} character={character} />
+              ))}
+            </ol>
+          </>
         )}
       </div>
     </>

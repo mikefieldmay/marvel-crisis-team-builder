@@ -1,23 +1,4 @@
-const AVENGERS = "AVENGERS";
-const WAKANDA = "WAKANDA";
-const CABAL = "CABAL";
-
-interface Image {
-  src: string;
-  alt: string;
-}
-
-interface Character {
-  id: number;
-  name: string;
-  threatLevel: number;
-  factionLeader?: string;
-  factions?: string[];
-  images: {
-    healthy: Image;
-    injured: Image;
-  };
-}
+import { Character, AVENGERS, CABAL, WAKANDA } from "../types/index";
 
 export const characters: Character[] = [
   {
