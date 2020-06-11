@@ -22,11 +22,11 @@ export const CharacterList: React.FC = () => {
 
   return (
     <>
-      <SectionHeading
+      {/* <SectionHeading
         title="Characters"
         onClick={() => setCharactersShowing(!charactersShowing)}
         sectionShowing={charactersShowing}
-      />
+      /> */}
       <div className={styles.CharacterContainer}>
         {charactersShowing && (
           <>
@@ -46,7 +46,12 @@ export const CharacterList: React.FC = () => {
                   </option>
                 </select>
               </div>
-              <ol className={styles.CharacterListContainer}>
+              <ol
+                className={[
+                  styles.CharacterListContainer,
+                  styles.AvalaibleCharacterContainer
+                ].join(" ")}
+              >
                 {availableCharacters.map((character: Character) => (
                   <ListItem key={character.id} character={character} />
                 ))}

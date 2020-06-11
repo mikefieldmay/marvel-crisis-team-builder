@@ -1,7 +1,6 @@
 .Image {
   border: 1px solid black;
-  height: 620px;
-  margin: 20px;
+  width: 100%;
 }
 
 .LoadingContainer {
@@ -13,6 +12,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  padding: 10px;
 }
 
 .IconContainer {
@@ -21,6 +21,10 @@
   position: absolute;
   height: 24px;
   width: 24px;
-  top: 50px;
-  left: 40px;
+  top: 10px;
+  left: 10px;
+}
+
+.ImageWrapper {
+  position: relative;
 }

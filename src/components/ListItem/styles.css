@@ -1,11 +1,9 @@
 @import "../../index.css";
 
 .ItemContainer {
-  padding-left: 20px;
   display: flex;
   align-items: center;
   list-style: none;
-  width: 100%;
   margin: 2px auto;
   text-align: center;
   height: 50px;
@@ -29,9 +27,9 @@
   margin: 0;
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1;
-  height: 24px;
+  height: 20px;
   margin-right: 16px;
 }
 

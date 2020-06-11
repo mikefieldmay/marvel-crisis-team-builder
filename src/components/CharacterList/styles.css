@@ -1,6 +1,7 @@
 .CharacterListContainer {
   width: 100%;
   padding: 0;
+  margin: 0;
 }
 
 .CharacterContainer {
@@ -12,6 +13,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* border-bottom: 1px solid black;
+  border-right: 1px solid black; */
 }
 
 .FilterTitle {
@@ -30,6 +33,11 @@
 @media (min-width: 1024px) {
   .CharacterContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 33.33% 33.33% 33.33%;
   }
+}
+
+.AvalaibleCharacterContainer {
+  height: 615px;
+  overflow: auto;
 }

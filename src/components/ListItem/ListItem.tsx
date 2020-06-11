@@ -37,7 +37,7 @@ export const ListItem: React.FC<{
         <span className={[styles.Title, styles.ThreatLevel].join(" ")}>
           {threatLevel}
         </span>
-        <h2 className={styles.Title}>{name}</h2>
+        <h2 className={styles.Title}>{name.slice(0, 15)}</h2>
       </div>
       <div className={styles.Triangle}></div>
       <button onClick={onButtonClick}>{selected ? "Remove" : "Add"}</button>
