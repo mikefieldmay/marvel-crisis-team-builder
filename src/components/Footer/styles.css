@@ -2,12 +2,18 @@
   text-align: center;
   background: black;
   padding: 20px;
-  position: absolute;
   width: 100%;
-  bottom: 0;
+
   box-sizing: border-box;
 }
 
 .Copyright {
   margin: 0;
+}
+
+@media (min-width: 1024px) {
+  .FooterContainer {
+    position: absolute;
+    bottom: 0;
+  }
 }

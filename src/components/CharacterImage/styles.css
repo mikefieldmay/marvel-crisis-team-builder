@@ -1,30 +1,42 @@
+.ImageContainer {
+  display: none;
+}
+
 .Image {
   border: 1px solid black;
   width: 100%;
 }
 
-.LoadingContainer {
-  position: absolute;
-}
+@media (min-width: 1024px) {
+  .Image {
+    border: 1px solid black;
+    width: 100%;
+  }
 
-.ImageContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding: 10px;
-}
+  .LoadingContainer {
+    position: absolute;
+    z-index: 2;
+  }
 
-.IconContainer {
-  padding: 0;
-  align-self: flex-start;
-  position: absolute;
-  height: 24px;
-  width: 24px;
-  top: 10px;
-  left: 10px;
-}
+  .ImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+  }
 
-.ImageWrapper {
-  position: relative;
+  .IconContainer {
+    padding: 0;
+    align-self: flex-start;
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    top: 10px;
+    left: 10px;
+  }
+
+  .ImageWrapper {
+    position: relative;
+  }
 }
