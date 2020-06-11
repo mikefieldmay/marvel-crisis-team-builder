@@ -8,28 +8,17 @@ import { useCrisisState } from "../../context/CrisisTeamContext";
 import { CharacterImage } from "../CharacterImage/CharacterImage";
 import { SelectedCharactersHeader } from "../SelectedCharactersHeader/SelectedCharactersHeader";
 import * as styles from "./styles.css";
-
-const sortByThreat = (characters: Character[]) =>
-  characters.sort((a, b) => b.threatLevel - a.threatLevel);
+import { sortCharacters } from "../../context/actions";
 
 export const CharacterList: React.FC = () => {
   const {
-    state: { selectedCharacters, availableCharacters }
+    state: { selectedCharacters, availableCharacters },
+    dispatch
   } = useCrisisState();
   const [charactersShowing, setCharactersShowing] = useState(true);
-  const [sortedCharacters, setSortedCharacters] = useState(
-    sortByThreat(availableCharacters)
-  );
 
-  const handleSortChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    const filter = event.target.value;
-    switch (filter) {
-      case "threatLevel":
-        setSortedCharacters(sortByThreat([...sortedCharacters]));
-      default:
-        return;
-    }
-  };
+  const handleSortChange = (event: React.ChangeEvent<HTMLSelectElement>) =>
+    dispatch(sortCharacters(event.target.value));
 
   return (
     <>
@@ -49,13 +38,16 @@ export const CharacterList: React.FC = () => {
                   onChange={handleSortChange}
                   name="sort"
                 >
+                  <option className={styles.Option} value="id">
+                    Default
+                  </option>
                   <option className={styles.Option} value="threatLevel">
                     Threat Level
                   </option>
                 </select>
               </div>
               <ol className={styles.CharacterListContainer}>
-                {sortedCharacters.map((character: Character) => (
+                {availableCharacters.map((character: Character) => (
                   <ListItem key={character.id} character={character} />
                 ))}
               </ol>

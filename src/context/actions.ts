@@ -4,6 +4,7 @@ export const REMOVE_CHARACTER_FROM_ROSTER: "REMOVE_CHARACTER_FROM_ROSTER" =
   "REMOVE_CHARACTER_FROM_ROSTER";
 export const SET_SELECTED_CHARACTER: "SET_SELECTED_CHARACTER" =
   "SET_SELECTED_CHARACTER";
+export const SORT_CHARACTERS: "SORT_CHARACTERS" = "SORT_CHARACTERS";
 
 export const removeCharacter = (id: number) => ({
   type: REMOVE_CHARACTER_FROM_ROSTER,
@@ -18,4 +19,9 @@ export const addCharacterToRoster = (id: number) => ({
 export const setSelectedCharacter = (id: number) => ({
   type: SET_SELECTED_CHARACTER,
   payload: id
+});
+
+export const sortCharacters = (key: string) => ({
+  type: SORT_CHARACTERS,
+  payload: key
 });

@@ -4,7 +4,9 @@ import {
   setSelectedCharacter,
   SET_SELECTED_CHARACTER,
   removeCharacter,
-  REMOVE_CHARACTER_FROM_ROSTER
+  REMOVE_CHARACTER_FROM_ROSTER,
+  sortCharacters,
+  SORT_CHARACTERS
 } from "./actions";
 
 describe("actions", () => {
@@ -27,5 +29,12 @@ describe("actions", () => {
     const selectCharacterAction = setSelectedCharacter(characterId);
     expect(selectCharacterAction.type).toBe(SET_SELECTED_CHARACTER);
     expect(selectCharacterAction.payload).toBe(characterId);
+  });
+
+  it("sorts characters by key", () => {
+    const sortKey = "threatLevel";
+    const selectCharacterAction = sortCharacters(sortKey);
+    expect(selectCharacterAction.type).toBe(SORT_CHARACTERS);
+    expect(selectCharacterAction.payload).toBe(sortKey);
   });
 });

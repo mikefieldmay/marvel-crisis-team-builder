@@ -1,7 +1,8 @@
 import {
   ADD_CHARACTER_TO_ROSTER,
   SET_SELECTED_CHARACTER,
-  REMOVE_CHARACTER_FROM_ROSTER
+  REMOVE_CHARACTER_FROM_ROSTER,
+  SORT_CHARACTERS
 } from "./actions";
 import { Character } from "../types";
 
@@ -15,6 +16,17 @@ export interface State {
   selectedCharacters: Character[];
   selectedCharacter: Character;
 }
+
+const sortAvailableCharacters = (characters: Character[], sortKey: string) => {
+  switch (sortKey) {
+    case "threatLevel":
+      return [...characters].sort((a, b) => b.threatLevel - a.threatLevel);
+    case "id":
+      return [...characters].sort((a, b) => a.id - b.id);
+    default:
+      return { ...characters };
+  }
+};
 
 export const reducer = (state: State, action: Action) => {
   switch (action.type) {
@@ -50,6 +62,15 @@ export const reducer = (state: State, action: Action) => {
       return {
         ...state,
         selectedCharacter: selectedCharacter
+      };
+    case SORT_CHARACTERS:
+      const sortedCharacters = sortAvailableCharacters(
+        state.availableCharacters,
+        action.payload
+      );
+      return {
+        ...state,
+        availableCharacters: sortedCharacters
       };
     default:
       return state;
