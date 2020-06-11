@@ -1,0 +1,26 @@
+.Image {
+  border: 1px solid black;
+  height: 620px;
+  margin: 20px;
+}
+
+.LoadingContainer {
+  position: absolute;
+}
+
+.ImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.IconContainer {
+  padding: 0;
+  align-self: flex-start;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: 50px;
+  left: 40px;
+}

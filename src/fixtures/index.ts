@@ -10,12 +10,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/captain_americajpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/captain_america.jpg",
         alt: "Captain America Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/captain_americajpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/captain_america.jpg",
         alt: "Captain America Injured"
       }
     }

@@ -1,11 +1,12 @@
 import React, { createContext, useContext, useReducer } from "react";
 
-import { State } from "./reducer";
+import { reducer, State } from "./reducer";
 import { characters } from "../fixtures";
 
 const initialState: State = {
   availableCharacters: characters,
-  selectedCharacters: []
+  selectedCharacters: [],
+  selectedCharacter: null
 };
 
 export const CrisisContext = createContext<{
@@ -16,13 +17,7 @@ export const CrisisContext = createContext<{
   dispatch: () => null
 });
 
-export const CrisisProvider = ({
-  reducer,
-  children
-}: {
-  reducer: any;
-  children: JSX.Element;
-}) => {
+export const CrisisProvider = ({ children }: { children: JSX.Element }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
@@ -32,4 +27,4 @@ export const CrisisProvider = ({
   );
 };
 
-export const useStateValue = () => useContext(CrisisContext);
+export const useCrisisState = () => useContext(CrisisContext);

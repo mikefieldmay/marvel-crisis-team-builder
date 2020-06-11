@@ -1,21 +1,27 @@
-import React, { useState } from "react";
+import React from "react";
 
-import { addCharacterToRoster } from "../../context/actions";
+import {
+  addCharacterToRoster,
+  setSelectedCharacter,
+  removeCharacter
+} from "../../context/actions";
 import { Threat } from "../Icons/Threat";
 import { Character } from "../../types";
-import { useStateValue } from "../../context/CrisisTeamContext";
+import { useCrisisState } from "../../context/CrisisTeamContext";
 
 import * as styles from "./styles.css";
 
-export const ListItem: React.FC<{ character: Character }> = ({ character }) => {
-  const {
-    state: { selectedCharacters },
-    dispatch
-  } = useStateValue();
+export const ListItem: React.FC<{
+  character: Character;
+  selected?: boolean;
+}> = ({ character, selected = false }) => {
+  const { dispatch } = useCrisisState();
 
-  const [selected, setSelected] = useState<boolean>(false);
+  const { id, name, threatLevel } = character;
 
-  const { name, threatLevel } = character;
+  const onButtonClick = () => {
+    dispatch(selected ? removeCharacter(id) : addCharacterToRoster(id));
+  };
 
   return (
     <li className={styles.ItemContainer}>
@@ -25,8 +31,7 @@ export const ListItem: React.FC<{ character: Character }> = ({ character }) => {
       <div
         className={styles.CharacterInfo}
         onClick={() => {
-          setSelected(!selected);
-          dispatch(addCharacterToRoster(character.id));
+          dispatch(setSelectedCharacter(character.id));
         }}
       >
         <span className={[styles.Title, styles.ThreatLevel].join(" ")}>
@@ -35,6 +40,7 @@ export const ListItem: React.FC<{ character: Character }> = ({ character }) => {
         <h2 className={styles.Title}>{name}</h2>
       </div>
       <div className={styles.Triangle}></div>
+      <button onClick={onButtonClick}>{selected ? "Remove" : "Add"}</button>
     </li>
   );
 };

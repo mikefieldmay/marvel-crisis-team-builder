@@ -1,6 +1,7 @@
 @import "../../index.css";
 
 .ItemContainer {
+  padding-left: 20px;
   display: flex;
   align-items: center;
   list-style: none;
@@ -13,7 +14,6 @@
 
 .CharacterInfo {
   display: flex;
-  width: 320px;
   margin-left: 40px;
   align-items: center;
   height: 32px;
@@ -32,6 +32,7 @@
   font-size: 24px;
   line-height: 1;
   height: 24px;
+  margin-right: 16px;
 }
 
 .Triangle {
@@ -43,6 +44,7 @@
 .ThreatLevel {
   color: var(--threat-blue);
   padding: 0 16px;
+  margin: 0;
 }
 
 .Threat {
@@ -52,6 +54,5 @@
   position: absolute;
 }
 
-.Selected {
-  color: var(--threat-red);
+@media (min-width: 1024px) {
 }

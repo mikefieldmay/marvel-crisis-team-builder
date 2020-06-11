@@ -1,0 +1,12 @@
+.HeaderContainer {
+  text-align: center;
+}
+
+.CharacterNumber {
+  color: black;
+  margin: 0;
+}
+
+.Warning {
+  color: red;
+}
