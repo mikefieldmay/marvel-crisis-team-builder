@@ -17,12 +17,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/captain_america.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/captain_america.png",
         alt: "Captain America Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/captain_america.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/captain_america.png",
         alt: "Captain America Injured"
       }
     }
@@ -35,12 +35,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/iron_man.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/iron_man.png",
         alt: "Iron Man Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/iron_man.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/iron_man.png",
         alt: "Iron Man Injured"
       }
     }
@@ -53,12 +53,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/spiderman.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/spiderman.png",
         alt: "Spider-Man Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/spiderman.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/spiderman.png",
         alt: "Spider-Man Injured"
       }
     }
@@ -71,12 +71,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/black_widow.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/black_widow.png",
         alt: "Black Widow Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/black_widow.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/black_widow.png",
         alt: "Black Widow Injured"
       }
     }
@@ -89,12 +89,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/captain_marvel.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/captain_marvel.png",
         alt: "Captain Marvel Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/captain_marvel.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/captain_marvel.png",
         alt: "Captain Marvel Injured"
       }
     }
@@ -108,12 +108,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/red_skull.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/red_skull.png",
         alt: "Red Skull Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/red_skull.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/red_skull.png",
         alt: "Red Skull Injured"
       }
     }
@@ -126,12 +126,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/doctor_octopus.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/doctor_octopus.png",
         alt: "Doctor Octopus Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/doctor_octopus.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/doctor_octopus.png",
         alt: "Doctor Octopus Injured"
       }
     }
@@ -144,12 +144,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/baron_zemo.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/baron_zemo.png",
         alt: "Baron Zemo Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/baron_zemo.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/baron_zemo.png",
         alt: "Baron Zemo Injured"
       }
     }
@@ -162,12 +162,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/ultron.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/ultron.png",
         alt: "Ultron Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/ultron.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/ultron.png",
         alt: "Ultron Injured"
       }
     }
@@ -180,12 +180,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/crossbones.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/crossbones.png",
         alt: "Cross Bones Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/crossbones.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/crossbones.png",
         alt: "Cross Bones Injured"
       }
     }
@@ -198,12 +198,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/black_panther.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/black_panther.png",
         alt: "Black Panther Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/black_panther.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/black_panther.png",
         alt: "Black Panther Injured"
       }
     }
@@ -216,12 +216,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/killmonger.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/killmonger.png",
         alt: "Killmonger Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/killmonger.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/killmonger.png",
         alt: "Killmonger Injured"
       }
     }
@@ -234,12 +234,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/shuri.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/shuri.png",
         alt: "Shuri Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/shuri.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/shuri.png",
         alt: "Shuri Injured"
       }
     }
@@ -252,12 +252,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/okoye.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/okoye.png",
         alt: "Okoye Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/okoye.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/okoye.png",
         alt: "Okoye Injured"
       }
     }
@@ -270,12 +270,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/hulk.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/hulk.png",
         alt: "Hulk Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/hulk.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/hulk.png",
         alt: "Hulk Healthy"
       }
     }
@@ -288,12 +288,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/modok.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/modok.png",
         alt: "M.O.D.O.K Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/modok.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/modok.png",
         alt: "M.O.D.O.K Injured"
       }
     }
@@ -306,12 +306,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/venom.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/venom.png",
         alt: "Venom Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/venom.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/venom.png",
         alt: "Venom Injured"
       }
     }
@@ -324,12 +324,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/loki.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/loki.png",
         alt: "Loki Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/loki.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/loki.png",
         alt: "Loki Injured"
       }
     }
@@ -342,12 +342,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/hela.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/hela.png",
         alt: "Hela Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/hela.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/hela.png",
         alt: "Hela Injured"
       }
     }
@@ -360,12 +360,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/thor.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/thor.png",
         alt: "Thor Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/thor.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/thor.png",
         alt: "Thor Injured"
       }
     }
@@ -378,12 +378,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/valkyrie.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/valkyrie.png",
         alt: "Valkyrie Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/valkyrie.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/valkyrie.png",
         alt: "Valkyrie Injured"
       }
     }
@@ -397,12 +397,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/star_lord.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/star_lord.png",
         alt: "Star-Lord Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/star_lord.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/star_lord.png",
         alt: "Star-Lord Injured"
       }
     }
@@ -415,12 +415,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/groot.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/groot.png",
         alt: "Groot Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/groot.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/groot.png",
         alt: "Groot Injured"
       }
     }
@@ -433,12 +433,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/rocket_raccoon.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/rocket_raccoon.png",
         alt: "Rocket Raccoon Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/rocket_raccoon.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/rocket_raccoon.png",
         alt: "Rocket Raccoon Injured"
       }
     }
@@ -451,12 +451,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/nebula.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/nebula.png",
         alt: "Nebula Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/nebula.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/nebula.png",
         alt: "Nebula Injured"
       }
     }
@@ -469,12 +469,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/gamora.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/gamora.png",
         alt: "Gamora Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/gamora.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/gamora.png",
         alt: "Gamora Injured"
       }
     }
@@ -487,12 +487,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/vision.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/vision.png",
         alt: "Vision Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/vision.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/vision.png",
         alt: "Vision Injured"
       }
     }
@@ -505,12 +505,12 @@ export const characters: Character[] = [
     images: {
       healthy: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/winter_soldier.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/winter_soldier.png",
         alt: "Winter Soldier Healthy"
       },
       injured: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/winter_soldier.jpg",
+          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/winter_soldier.png",
         alt: "Winter Soldier Injured"
       }
     }
