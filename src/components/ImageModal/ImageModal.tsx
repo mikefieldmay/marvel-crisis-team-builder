@@ -37,7 +37,7 @@ export const ImageModal = () => {
         </div>
       )}
       <div className={styles.ImageWrapper}>
-        {selectedCharacter.name !== "Hulk" && (
+        {selectedCharacter.images.injured && (
           <button
             title={`Flip to ${injuredSide ? "Healthy" : "Injured"}`}
             onClick={() => {

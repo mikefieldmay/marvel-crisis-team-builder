@@ -11,13 +11,26 @@ interface Image {
 }
 
 export interface Character {
-  id: number;
+  id: number; //C1
   name: string;
   threatLevel: number;
   factionLeader?: string;
   factions?: string[];
   images: {
     healthy: Image;
-    injured: Image;
+    injured?: Image;
   };
+}
+
+export interface InfinityGem {
+  id: number; // IG1
+  name: string;
+  threatLevel: number;
+}
+
+export interface TacticCard {
+  id: number; // TC1
+  name: string;
+  affiliation: string;
+  keywords: string[];
 }

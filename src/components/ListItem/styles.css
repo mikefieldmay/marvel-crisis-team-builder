@@ -8,7 +8,7 @@
   text-align: center;
   height: 50px;
   position: relative;
-  padding-left: 20px;
+  padding: 0 8px;
 }
 
 .CharacterInfo {
@@ -18,6 +18,7 @@
   height: 32px;
   background: black;
   cursor: pointer;
+  width: 80%;
 }
 
 .CharacterInfo:hover {
@@ -32,6 +33,7 @@
   line-height: 1;
   height: 20px;
   margin-right: 16px;
+  overflow: hidden;
 }
 
 .Triangle {
@@ -48,10 +50,16 @@
 
 .Threat {
   position: relative;
-  height: 100%;
   width: 48px;
   position: absolute;
 }
 
+.SelectButton {
+  width: 10%;
+}
+
 @media (min-width: 1024px) {
+  .ItemContainer {
+    padding: 0 20px;
+  }
 }

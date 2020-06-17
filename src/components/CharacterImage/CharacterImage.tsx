@@ -3,7 +3,6 @@ import { useCrisisState } from "../../context/CrisisTeamContext";
 import styles from "./styles.css";
 import { Loading } from "../Icons/Loading";
 import { Flip } from "../Icons/Flip";
-import { characters } from "../../fixtures";
 
 export const CharacterImage = () => {
   const {
@@ -27,7 +26,7 @@ export const CharacterImage = () => {
         </div>
       )}
       <div className={styles.ImageWrapper}>
-        {selectedCharacter.name !== "Hulk" && (
+        {selectedCharacter.images.injured && (
           <button
             title={`Flip to ${injuredSide ? "Healthy" : "Injured"}`}
             onClick={() => {
