@@ -4,11 +4,15 @@ import * as styles from "./styles.css";
 import { useCrisisState } from "../../context/CrisisTeamContext";
 import { Loading } from "../Icons/Loading";
 import { Flip } from "../Icons/Flip";
-import { setSelectedCharacter } from "../../context/actions";
+import {
+  setSelectedCharacter,
+  removeCharacter,
+  addCharacterToRoster
+} from "../../context/actions";
 
 export const ImageModal = () => {
   const {
-    state: { selectedCharacter },
+    state: { selectedCharacter, selectedCharacters },
     dispatch
   } = useCrisisState();
   const [imageLoading, setImageLoading] = useState(true);
@@ -20,6 +24,20 @@ export const ImageModal = () => {
     setInjuredSide(false);
     return () => (document.body.style.overflow = "initial");
   }, [selectedCharacter]);
+
+  const isSelected = () => {
+    return selectedCharacters.find(
+      availableCharacter => availableCharacter.id === selectedCharacter.id
+    );
+  };
+
+  const onButtonClick = () => {
+    dispatch(
+      isSelected()
+        ? removeCharacter(selectedCharacter.id)
+        : addCharacterToRoster(selectedCharacter.id)
+    );
+  };
 
   if (!selectedCharacter) return null;
 
@@ -37,6 +55,9 @@ export const ImageModal = () => {
         </div>
       )}
       <div className={styles.ImageWrapper}>
+        <button onClick={onButtonClick} className={styles.AddButton}>
+          {isSelected() ? "-" : "+"}
+        </button>
         {selectedCharacter.images.back && (
           <button
             title={`Flip to ${injuredSide ? "Healthy" : "Injured"}`}

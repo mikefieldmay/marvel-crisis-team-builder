@@ -26,7 +26,7 @@
     padding: 10px;
   }
 
-  .IconContainer {
+  .AddButton {
     padding: 0;
     align-self: flex-start;
     position: absolute;
@@ -34,6 +34,16 @@
     width: 24px;
     top: 10px;
     left: 10px;
+  }
+
+  .IconContainer {
+    padding: 0;
+    align-self: flex-start;
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    top: 10px;
+    left: 40px;
   }
 
   .ImageWrapper {

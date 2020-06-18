@@ -3,10 +3,12 @@ import { useCrisisState } from "../../context/CrisisTeamContext";
 import styles from "./styles.css";
 import { Loading } from "../Icons/Loading";
 import { Flip } from "../Icons/Flip";
+import { removeCharacter, addCharacterToRoster } from "../../context/actions";
 
 export const CharacterImage = () => {
   const {
-    state: { selectedCharacter }
+    state: { selectedCharacter, selectedCharacters },
+    dispatch
   } = useCrisisState();
   const [imageLoading, setImageLoading] = useState(true);
   const [injuredSide, setInjuredSide] = useState(false);
@@ -15,6 +17,20 @@ export const CharacterImage = () => {
     setImageLoading(true);
     setInjuredSide(false);
   }, [selectedCharacter]);
+
+  const isSelected = () => {
+    return selectedCharacters.find(
+      availableCharacter => availableCharacter.id === selectedCharacter.id
+    );
+  };
+
+  const onButtonClick = () => {
+    dispatch(
+      isSelected()
+        ? removeCharacter(selectedCharacter.id)
+        : addCharacterToRoster(selectedCharacter.id)
+    );
+  };
 
   if (!selectedCharacter) return <div />;
 
@@ -26,6 +42,9 @@ export const CharacterImage = () => {
         </div>
       )}
       <div className={styles.ImageWrapper}>
+        <button onClick={onButtonClick} className={styles.AddButton}>
+          {isSelected() ? "-" : "+"}
+        </button>
         {selectedCharacter.images.back && (
           <button
             title={`Flip to ${injuredSide ? "Healthy" : "Injured"}`}
@@ -43,8 +62,14 @@ export const CharacterImage = () => {
             setImageLoading(false);
           }}
           className={styles.Image}
-          src={selectedCharacter.images[injuredSide ? "back" : "front"].src}
-          alt={selectedCharacter.images[injuredSide ? "back" : "front"].alt}
+          src={
+            selectedCharacter.images[injuredSide ? "back" : "front"] &&
+            selectedCharacter.images[injuredSide ? "back" : "front"].src
+          }
+          alt={
+            selectedCharacter.images[injuredSide ? "back" : "front"] &&
+            selectedCharacter.images[injuredSide ? "back" : "front"].alt
+          }
         />
       </div>
     </div>

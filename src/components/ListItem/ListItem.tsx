@@ -13,14 +13,22 @@ import * as styles from "./styles.css";
 
 export const ListItem: React.FC<{
   character: Character;
-  selected?: boolean;
-}> = ({ character, selected = false }) => {
-  const { dispatch } = useCrisisState();
+}> = ({ character }) => {
+  const {
+    dispatch,
+    state: { selectedCharacters }
+  } = useCrisisState();
 
   const { id, name, threatLevel } = character;
 
+  const isSelected = () => {
+    return selectedCharacters.find(
+      availableCharacter => availableCharacter.id === character.id
+    );
+  };
+
   const onButtonClick = () => {
-    dispatch(selected ? removeCharacter(id) : addCharacterToRoster(id));
+    dispatch(isSelected() ? removeCharacter(id) : addCharacterToRoster(id));
   };
 
   return (
@@ -41,7 +49,7 @@ export const ListItem: React.FC<{
       </div>
       <div className={styles.Triangle}></div>
       <button className={styles.SelectButton} onClick={onButtonClick}>
-        {selected ? "Remove" : "Add"}
+        {isSelected() ? "-" : "+"}
       </button>
     </li>
   );

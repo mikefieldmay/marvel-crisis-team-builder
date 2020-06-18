@@ -31,7 +31,6 @@
 }
 
 .AvalaibleCharacterContainer {
-  overflow: auto;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
@@ -43,7 +42,7 @@
   }
 
   .AvalaibleCharacterContainer {
-    height: 615px;
+    height: 600px;
     overflow: auto;
     border-top: 1px solid black;
     border-bottom: 1px solid black;

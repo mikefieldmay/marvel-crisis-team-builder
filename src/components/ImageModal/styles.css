@@ -21,7 +21,7 @@
   z-index: 2;
 }
 
-.IconContainer {
+.AddButton {
   padding: 0;
   align-self: flex-start;
   position: absolute;
@@ -29,6 +29,16 @@
   width: 24px;
   top: 20px;
   left: 20px;
+}
+
+.IconContainer {
+  padding: 0;
+  align-self: flex-start;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: 20px;
+  left: 50px;
 }
 
 .ImageWrapper {
