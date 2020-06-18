@@ -26,7 +26,7 @@ export const CharacterImage = () => {
         </div>
       )}
       <div className={styles.ImageWrapper}>
-        {selectedCharacter.images.injured && (
+        {selectedCharacter.images.back && (
           <button
             title={`Flip to ${injuredSide ? "Healthy" : "Injured"}`}
             onClick={() => {
@@ -43,12 +43,8 @@ export const CharacterImage = () => {
             setImageLoading(false);
           }}
           className={styles.Image}
-          src={
-            selectedCharacter.images[injuredSide ? "injured" : "healthy"].src
-          }
-          alt={
-            selectedCharacter.images[injuredSide ? "injured" : "healthy"].alt
-          }
+          src={selectedCharacter.images[injuredSide ? "back" : "front"].src}
+          alt={selectedCharacter.images[injuredSide ? "back" : "front"].alt}
         />
       </div>
     </div>

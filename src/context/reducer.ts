@@ -4,7 +4,7 @@ import {
   REMOVE_CHARACTER_FROM_ROSTER,
   SORT_CHARACTERS
 } from "./actions";
-import { Character } from "../types";
+import { Character, InfinityGem } from "../types";
 
 export interface Action {
   type: string;
@@ -12,12 +12,15 @@ export interface Action {
 }
 
 export interface State {
-  availableCharacters: Character[];
-  selectedCharacters: Character[];
-  selectedCharacter: Character;
+  availableCharacters: (Character | InfinityGem)[];
+  selectedCharacters: (Character | InfinityGem)[];
+  selectedCharacter: Character | InfinityGem;
 }
 
-const sortAvailableCharacters = (characters: Character[], sortKey: string) => {
+const sortAvailableCharacters = (
+  characters: (Character | InfinityGem)[],
+  sortKey: string
+) => {
   switch (sortKey) {
     case "threatLevel":
       return [...characters].sort((a, b) => b.threatLevel - a.threatLevel);

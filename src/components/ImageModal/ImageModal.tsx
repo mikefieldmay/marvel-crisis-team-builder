@@ -29,7 +29,7 @@ export const ImageModal = () => {
         className={styles.CloseButton}
         onClick={() => dispatch(setSelectedCharacter(null))}
       >
-        Close
+        X
       </button>
       {imageLoading && (
         <div className={styles.LoadingContainer}>
@@ -37,7 +37,7 @@ export const ImageModal = () => {
         </div>
       )}
       <div className={styles.ImageWrapper}>
-        {selectedCharacter.images.injured && (
+        {selectedCharacter.images.back && (
           <button
             title={`Flip to ${injuredSide ? "Healthy" : "Injured"}`}
             onClick={() => {
@@ -54,12 +54,8 @@ export const ImageModal = () => {
             setImageLoading(false);
           }}
           className={styles.Image}
-          src={
-            selectedCharacter.images[injuredSide ? "injured" : "healthy"].src
-          }
-          alt={
-            selectedCharacter.images[injuredSide ? "injured" : "healthy"].alt
-          }
+          src={selectedCharacter.images[injuredSide ? "back" : "front"].src}
+          alt={selectedCharacter.images[injuredSide ? "back" : "front"].alt}
         />
       </div>
     </div>

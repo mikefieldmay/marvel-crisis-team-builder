@@ -1,12 +1,16 @@
 @import "../../index.css";
 
+.ListContainer {
+  list-style: none;
+  margin: 8px auto;
+}
+
 .ItemContainer {
+  min-height: 50px;
   display: flex;
   align-items: center;
   list-style: none;
-  margin: 2px auto;
   text-align: center;
-  height: 50px;
   position: relative;
   padding: 0 8px;
 }
@@ -56,6 +60,13 @@
 
 .SelectButton {
   width: 10%;
+}
+
+.GemList {
+}
+
+.GemItem {
+  list-style: none;
 }
 
 @media (min-width: 1024px) {

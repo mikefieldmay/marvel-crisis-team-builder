@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Character } from "../../types";
+import { Character, InfinityGem } from "../../types";
 import { ListItem } from "../ListItem/ListItem";
 import { SectionHeading } from "../SectionHeading/SectionHeading";
 
@@ -22,11 +22,11 @@ export const CharacterList: React.FC = () => {
 
   return (
     <>
-      {/* <SectionHeading
+      <SectionHeading
         title="Characters"
         onClick={() => setCharactersShowing(!charactersShowing)}
         sectionShowing={charactersShowing}
-      /> */}
+      />
       <div className={styles.CharacterContainer}>
         {charactersShowing && (
           <>
@@ -52,18 +52,22 @@ export const CharacterList: React.FC = () => {
                   styles.AvalaibleCharacterContainer
                 ].join(" ")}
               >
-                {availableCharacters.map((character: Character) => (
-                  <ListItem key={character.id} character={character} />
-                ))}
+                {availableCharacters.map(
+                  (character: Character | InfinityGem) => (
+                    <ListItem key={character.id} character={character} />
+                  )
+                )}
               </ol>
             </div>
             <CharacterImage />
             <div>
               <SelectedCharactersHeader />
               <ol className={styles.CharacterListContainer}>
-                {selectedCharacters.map((character: Character) => (
-                  <ListItem selected key={character.id} character={character} />
-                ))}
+                {selectedCharacters.map(
+                  (character: Character | InfinityGem) => (
+                    <ListItem key={character.id} character={character} />
+                  )
+                )}
               </ol>
             </div>
           </>

@@ -1,9 +1,10 @@
-export const AVENGERS: "AVENGERS" = "AVENGERS";
-export const WAKANDA: "WAKANDA" = "WAKANDA";
-export const CABAL: "CABAL" = "CABAL";
-export const ASGARD: "ASGARD" = "ASGARD";
-export const GUARDIANS_OF_THE_GALAXY: "GUARDIANS OF THE GALAXY" =
-  "GUARDIANS OF THE GALAXY";
+export const AVENGERS: "Avengers" = "Avengers";
+export const WAKANDA: "Wakanda" = "Wakanda";
+export const CABAL: "Cabal" = "Cabal";
+export const ASGARD: "Asgard" = "Asgard";
+export const GUARDIANS_OF_THE_GALAXY: "Guardians of the Galaxy" =
+  "Guardians of the Galaxy";
+export const BLACK_ORDER: "Black Order" = "Black Order";
 
 interface Image {
   src: string;
@@ -16,9 +17,10 @@ export interface Character {
   threatLevel: number;
   factionLeader?: string;
   factions?: string[];
+  gemBearer?: string[];
   images: {
-    healthy: Image;
-    injured?: Image;
+    front: Image;
+    back?: Image;
   };
 }
 
@@ -26,6 +28,10 @@ export interface InfinityGem {
   id: number; // IG1
   name: string;
   threatLevel: number;
+  images: {
+    front: Image;
+    back?: Image;
+  };
 }
 
 export interface TacticCard {
