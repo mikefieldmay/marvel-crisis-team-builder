@@ -7,10 +7,10 @@ import { SectionHeading } from "../SectionHeading/SectionHeading";
 import { useCrisisState } from "../../context/CrisisTeamContext";
 import { CharacterImage } from "../CharacterImage/CharacterImage";
 import { SelectedCharactersHeader } from "../SelectedCharactersHeader/SelectedCharactersHeader";
-import * as styles from "./styles.css";
 import { sortCharacters } from "../../context/characters/actions";
+import * as styles from "./styles.css";
 
-export const CharacterList: React.FC = () => {
+export const TacticCardList: React.FC = () => {
   const {
     state: {
       characterState: { selectedCharacters, availableCharacters }
@@ -21,7 +21,7 @@ export const CharacterList: React.FC = () => {
 
   const handleSortChange = (event: React.ChangeEvent<HTMLSelectElement>) =>
     dispatch(sortCharacters(event.target.value));
-  console.log(dispatch);
+
   return (
     <>
       <SectionHeading

@@ -5,17 +5,22 @@ import { Header } from "./components/Header/Header";
 import { CrisisProvider, useCrisisState } from "./context/CrisisTeamContext";
 import { Footer } from "./components/Footer/Footer";
 import { ImageModal } from "./components/ImageModal/ImageModal";
+import { TacticCardList } from "./components/TacticCardList/TacticCardList";
 
 import * as styles from "./index.css";
 
 const AppSkeleton = () => {
   const {
-    state: { selectedCharacter }
+    state: {
+      characterState: { selectedCharacter }
+    }
   } = useCrisisState();
+
   return (
     <>
       <Header />
       <CharacterList />
+      <TacticCardList />
       <Footer />
       {selectedCharacter && <ImageModal />}
     </>

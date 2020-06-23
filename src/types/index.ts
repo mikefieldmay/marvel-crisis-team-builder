@@ -5,10 +5,16 @@ export const ASGARD: "Asgard" = "Asgard";
 export const GUARDIANS_OF_THE_GALAXY: "Guardians of the Galaxy" =
   "Guardians of the Galaxy";
 export const BLACK_ORDER: "Black Order" = "Black Order";
+export const UNAFILLIATED: "Unaffiliated" = "Unaffiliated";
 
 interface Image {
   src: string;
   alt: string;
+}
+
+interface Images {
+  front: Image;
+  back?: Image;
 }
 
 export interface Character {
@@ -18,20 +24,14 @@ export interface Character {
   factionLeader?: string;
   factions?: string[];
   gemBearer?: string[];
-  images: {
-    front: Image;
-    back?: Image;
-  };
+  images: Images;
 }
 
 export interface InfinityGem {
   id: number; // IG1
   name: string;
   threatLevel: number;
-  images: {
-    front: Image;
-    back?: Image;
-  };
+  images: Images;
 }
 
 export interface TacticCard {
@@ -39,4 +39,5 @@ export interface TacticCard {
   name: string;
   affiliation: string;
   keywords: string[];
+  images: Images;
 }

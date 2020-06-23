@@ -1,10 +1,10 @@
 import { reducer, State } from "./reducer";
 import {
-  ADD_CHARACTER_TO_ROSTER,
-  SET_SELECTED_CHARACTER,
-  REMOVE_CHARACTER_FROM_ROSTER
+  ADD_TACTIC_CARD_TO_ROSTER,
+  SET_SELECTED_TACTIC_CARD,
+  REMOVE_TACTIC_CARD_FROM_ROSTER
 } from "./actions";
-import { characters } from "../fixtures";
+import { characters } from "../../fixtures";
 
 const defaultState: State = {
   availableCharacters: characters,
@@ -20,7 +20,7 @@ describe("reducer", () => {
 
   it("adds a character to selected characters", () => {
     const action = {
-      type: ADD_CHARACTER_TO_ROSTER,
+      type: ADD_TACTIC_CARD_TO_ROSTER,
       payload: 1
     };
     const newState = reducer(defaultState, action);
@@ -34,7 +34,7 @@ describe("reducer", () => {
       selectedCharacters: characters
     };
     const action = {
-      type: REMOVE_CHARACTER_FROM_ROSTER,
+      type: REMOVE_TACTIC_CARD_FROM_ROSTER,
       payload: 1
     };
     const newState = reducer(state, action);
@@ -43,7 +43,7 @@ describe("reducer", () => {
 
   it("sets a selected character", () => {
     const action = {
-      type: SET_SELECTED_CHARACTER,
+      type: SET_SELECTED_TACTIC_CARD,
       payload: 1
     };
     const newState = reducer(defaultState, action);

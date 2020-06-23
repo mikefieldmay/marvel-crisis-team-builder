@@ -3,12 +3,17 @@ import { useCrisisState } from "../../context/CrisisTeamContext";
 import styles from "./styles.css";
 import { Loading } from "../Icons/Loading";
 import { Flip } from "../Icons/Flip";
-import { removeCharacter, addCharacterToRoster } from "../../context/actions";
+import {
+  removeCharacter,
+  addCharacterToRoster
+} from "../../context/characters/actions";
+import { AddOrRemoveButton } from "../AddOrRemoveButton/AddOrRemoveButton";
 
 export const CharacterImage = () => {
   const {
-    state: { selectedCharacter, selectedCharacters },
-    dispatch
+    state: {
+      characterState: { selectedCharacter, selectedCharacters }
+    }
   } = useCrisisState();
   const [imageLoading, setImageLoading] = useState(true);
   const [injuredSide, setInjuredSide] = useState(false);
@@ -17,20 +22,6 @@ export const CharacterImage = () => {
     setImageLoading(true);
     setInjuredSide(false);
   }, [selectedCharacter]);
-
-  const isSelected = () => {
-    return selectedCharacters.find(
-      availableCharacter => availableCharacter.id === selectedCharacter.id
-    );
-  };
-
-  const onButtonClick = () => {
-    dispatch(
-      isSelected()
-        ? removeCharacter(selectedCharacter.id)
-        : addCharacterToRoster(selectedCharacter.id)
-    );
-  };
 
   if (!selectedCharacter) return <div />;
 
@@ -42,9 +33,13 @@ export const CharacterImage = () => {
         </div>
       )}
       <div className={styles.ImageWrapper}>
-        <button onClick={onButtonClick} className={styles.AddButton}>
-          {isSelected() ? "-" : "+"}
-        </button>
+        <AddOrRemoveButton
+          classes={[styles.AddButton]}
+          item={selectedCharacter}
+          comparisonList={selectedCharacters}
+          addAction={addCharacterToRoster}
+          removeAction={removeCharacter}
+        />
         {selectedCharacter.images.back && (
           <button
             title={`Flip to ${injuredSide ? "Healthy" : "Injured"}`}

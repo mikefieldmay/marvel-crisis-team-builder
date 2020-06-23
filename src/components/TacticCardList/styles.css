@@ -1,0 +1,50 @@
+.CharacterListContainer {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.CharacterContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.ListFilter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 1px solid black;
+  border-right: 1px solid black; */
+}
+
+.FilterTitle {
+  margin: 0;
+  color: black;
+}
+
+.Option {
+}
+
+.Select {
+  margin-left: 8px;
+  height: 20px;
+}
+
+.AvalaibleCharacterContainer {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+@media (min-width: 1024px) {
+  .CharacterContainer {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+  }
+
+  .AvalaibleCharacterContainer {
+    height: 600px;
+    overflow: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+}

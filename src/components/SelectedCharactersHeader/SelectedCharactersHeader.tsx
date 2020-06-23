@@ -4,7 +4,9 @@ import { useCrisisState } from "../../context/CrisisTeamContext";
 
 export const SelectedCharactersHeader = () => {
   const {
-    state: { selectedCharacters, availableCharacters }
+    state: {
+      characterState: { selectedCharacters }
+    }
   } = useCrisisState();
   return (
     <div className={styles.HeaderContainer}>

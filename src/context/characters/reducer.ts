@@ -4,7 +4,8 @@ import {
   REMOVE_CHARACTER_FROM_ROSTER,
   SORT_CHARACTERS
 } from "./actions";
-import { Character, InfinityGem } from "../types";
+import { Character, InfinityGem } from "../../types";
+import { characters } from "../../fixtures";
 
 export interface Action {
   type: string;
@@ -16,6 +17,12 @@ export interface State {
   selectedCharacters: (Character | InfinityGem)[];
   selectedCharacter: Character | InfinityGem;
 }
+
+export const initialState: State = {
+  availableCharacters: characters,
+  selectedCharacters: [],
+  selectedCharacter: null
+};
 
 const sortAvailableCharacters = (
   characters: (Character | InfinityGem)[],

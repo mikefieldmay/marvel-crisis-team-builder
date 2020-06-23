@@ -8,11 +8,14 @@ import {
   setSelectedCharacter,
   removeCharacter,
   addCharacterToRoster
-} from "../../context/actions";
+} from "../../context/characters/actions";
+import { AddOrRemoveButton } from "../AddOrRemoveButton/AddOrRemoveButton";
 
 export const ImageModal = () => {
   const {
-    state: { selectedCharacter, selectedCharacters },
+    state: {
+      characterState: { selectedCharacter, selectedCharacters }
+    },
     dispatch
   } = useCrisisState();
   const [imageLoading, setImageLoading] = useState(true);
@@ -24,20 +27,6 @@ export const ImageModal = () => {
     setInjuredSide(false);
     return () => (document.body.style.overflow = "initial");
   }, [selectedCharacter]);
-
-  const isSelected = () => {
-    return selectedCharacters.find(
-      availableCharacter => availableCharacter.id === selectedCharacter.id
-    );
-  };
-
-  const onButtonClick = () => {
-    dispatch(
-      isSelected()
-        ? removeCharacter(selectedCharacter.id)
-        : addCharacterToRoster(selectedCharacter.id)
-    );
-  };
 
   if (!selectedCharacter) return null;
 
@@ -55,9 +44,13 @@ export const ImageModal = () => {
         </div>
       )}
       <div className={styles.ImageWrapper}>
-        <button onClick={onButtonClick} className={styles.AddButton}>
-          {isSelected() ? "-" : "+"}
-        </button>
+        <AddOrRemoveButton
+          classes={[styles.AddButton]}
+          item={selectedCharacter}
+          comparisonList={selectedCharacters}
+          addAction={addCharacterToRoster}
+          removeAction={removeCharacter}
+        />
         {selectedCharacter.images.back && (
           <button
             title={`Flip to ${injuredSide ? "Healthy" : "Injured"}`}
