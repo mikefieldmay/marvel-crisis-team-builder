@@ -18,12 +18,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/tactical_analysis.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/tactical_analysis.png",
         alt: "Tactical Analysis"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/tactical_analysis.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/tactical_analysis.png",
         alt: "Tactical Analysis"
       }
     }
@@ -36,12 +36,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/seeing_red.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/seeing_red.png",
         alt: "Seeing Red"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/seeing_red.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/seeing_red.png",
         alt: "Seeing Red"
       }
     }
@@ -54,12 +54,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/thunderwave.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/thunderwave.png",
         alt: "Thunderwave"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/thunderwave.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/thunderwave.png",
         alt: "Thunderwave"
       }
     }
@@ -72,12 +72,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/heavy_firepower.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/heavy_firepower.png",
         alt: "Heavy Firepower"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/heavy_firepower.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/heavy_firepower.png",
         alt: "Heavy Firepower"
       }
     }
@@ -90,12 +90,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/execute.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/execute.png",
         alt: "Execute"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/execute.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/execute.png",
         alt: "Execute"
       }
     }
@@ -108,12 +108,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/sucker.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/sucker.png",
         alt: "Sucker"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/sucker.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/sucker.png",
         alt: "Sucker"
       }
     }
@@ -126,12 +126,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/sibling_rivalry.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/sibling_rivalry.png",
         alt: "Sibling Rivalry"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/sibling_rivalry.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/sibling_rivalry.png",
         alt: "Sibling Rivalry"
       }
     }
@@ -144,12 +144,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/one_two_punch.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/one_two_punch.png",
         alt: "One-Two Punch"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/one_two_punch.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/one_two_punch.png",
         alt: "One-Two Punch"
       }
     }
@@ -162,12 +162,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/sacrifice.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/sacrifice.png",
         alt: "Sacrifice"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/sacrifice.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/sacrifice.png",
         alt: "Sacrifice"
       }
     }
@@ -180,12 +180,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/heave_ho.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/heave_ho.png",
         alt: "Heave Ho"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/heave_ho.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/heave_ho.png",
         alt: "Heave Ho"
       }
     }
@@ -198,12 +198,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/aim_lackeys.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/aim_lackeys.png",
         alt: "A.I.M Lackeys"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/aim_lackeys.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/aim_lackeys.png",
         alt: "A.I.M Lackeys"
       }
     }
@@ -216,12 +216,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/profesionals.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/profesionals.png",
         alt: "Profesionals"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/profesionals.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/profesionals.png",
         alt: "Profesionals"
       }
     }
@@ -234,12 +234,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/gamma_launch.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/gamma_launch.png",
         alt: "Gamma Launch"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/gamma_launch.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/gamma_launch.png",
         alt: "Gamma Launch"
       }
     }
@@ -252,12 +252,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/battle_lust.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/battle_lust.png",
         alt: "Battle Lust"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/battle_lust.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/battle_lust.png",
         alt: "Battle Lust"
       }
     }
@@ -270,12 +270,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/recalibration_matrix.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/recalibration_matrix.png",
         alt: "Recalibration Matrix"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/recalibration_matrix.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/recalibration_matrix.png",
         alt: "Recalibration Matrix"
       }
     }
@@ -288,12 +288,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/the_age_of_ultron.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/the_age_of_ultron.png",
         alt: "The Age Of Ultron"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/the_age_of_ultron.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/the_age_of_ultron.png",
         alt: "The Age Of Ultron"
       }
     }
@@ -306,12 +306,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/disarm.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/disarm.png",
         alt: "Disarm"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/disarm.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/disarm.png",
         alt: "Disarm"
       }
     }
@@ -324,12 +324,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/daughters_of_thanos.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/daughters_of_thanos.png",
         alt: "Daughters of Thanos"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/daughters_of_thanos.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/daughters_of_thanos.png",
         alt: "Daughters of Thanos"
       }
     }
@@ -342,12 +342,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/brace_for_impact.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/brace_for_impact.png",
         alt: "Brace for Impact"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/brace_for_impact.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/brace_for_impact.png",
         alt: "Brace for Impact"
       }
     }
@@ -360,12 +360,12 @@ export const tacticCards: TacticCard[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/front/medpack.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/front/medpack.png",
         alt: "Medpack"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/tactic_cards/back/medpack.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/tactic_cards/back/medpack.png",
         alt: "Medpack"
       }
     }

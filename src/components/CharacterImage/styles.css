@@ -10,7 +10,6 @@
 @media (min-width: 1024px) {
   .Image {
     border: 1px solid black;
-    width: 100%;
   }
 
   .LoadingContainer {
@@ -48,5 +47,6 @@
 
   .ImageWrapper {
     position: relative;
+    width: 85%;
   }
 }

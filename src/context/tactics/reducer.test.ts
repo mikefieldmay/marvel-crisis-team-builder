@@ -30,15 +30,15 @@ describe("reducer", () => {
   it("removes a character from selected characters", () => {
     const state: State = {
       ...defaultState,
-      availableTacticCards: [],
-      selectedTacticCards: tacticCards
+      availableTacticCards: tacticCards,
+      selectedTacticCards: [tacticCards[0]]
     };
     const action = {
       type: REMOVE_TACTIC_CARD_FROM_ROSTER,
       payload: 1
     };
     const newState = reducer(state, action);
-    expect(newState.availableTacticCards[0].id).toEqual(1);
+    expect(newState.selectedTacticCards.length).toEqual(0);
   });
 
   it("sets a selected character", () => {

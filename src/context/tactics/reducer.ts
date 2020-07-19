@@ -44,12 +44,8 @@ export const reducer = (state: State, action: Action) => {
       const tacticCard = [...state.availableTacticCards].find(
         tacticCard => tacticCard.id === action.payload
       );
-      const updatesAvailableTacticCards = [
-        ...state.availableTacticCards
-      ].filter(tacticCard => tacticCard.id !== action.payload);
       return {
         ...state,
-        availableTacticCards: updatesAvailableTacticCards,
         selectedTacticCards: [...state.selectedTacticCards, tacticCard]
       };
     case REMOVE_TACTIC_CARD_FROM_ROSTER:
@@ -61,10 +57,6 @@ export const reducer = (state: State, action: Action) => {
       );
       return {
         ...state,
-        availableTacticCards: [
-          ...state.availableTacticCards,
-          characterToRemove
-        ],
         selectedTacticCards: updatedSelectedCharacters
       };
     case SET_SELECTED_TACTIC_CARD:

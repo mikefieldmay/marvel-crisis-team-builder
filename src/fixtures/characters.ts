@@ -19,12 +19,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/captain_america.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/captain_america.png",
         alt: "Captain America Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/captain_america.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/captain_america.png",
         alt: "Captain America Injured"
       }
     }
@@ -37,12 +37,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/iron_man.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/iron_man.png",
         alt: "Iron Man Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/iron_man.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/iron_man.png",
         alt: "Iron Man Injured"
       }
     }
@@ -55,12 +55,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/spiderman.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/spiderman.png",
         alt: "Spider-Man Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/spiderman.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/spiderman.png",
         alt: "Spider-Man Injured"
       }
     }
@@ -73,12 +73,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/black_widow.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/black_widow.png",
         alt: "Black Widow Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/black_widow.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/black_widow.png",
         alt: "Black Widow Injured"
       }
     }
@@ -91,12 +91,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/captain_marvel.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/captain_marvel.png",
         alt: "Captain Marvel Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/captain_marvel.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/captain_marvel.png",
         alt: "Captain Marvel Injured"
       }
     }
@@ -110,12 +110,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/red_skull.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/red_skull.png",
         alt: "Red Skull Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/red_skull.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/red_skull.png",
         alt: "Red Skull Injured"
       }
     }
@@ -128,12 +128,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/doctor_octopus.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/doctor_octopus.png",
         alt: "Doctor Octopus Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/doctor_octopus.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/doctor_octopus.png",
         alt: "Doctor Octopus Injured"
       }
     }
@@ -146,12 +146,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/baron_zemo.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/baron_zemo.png",
         alt: "Baron Zemo Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/baron_zemo.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/baron_zemo.png",
         alt: "Baron Zemo Injured"
       }
     }
@@ -164,12 +164,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/ultron.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/ultron.png",
         alt: "Ultron Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/ultron.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/ultron.png",
         alt: "Ultron Injured"
       }
     }
@@ -182,12 +182,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/crossbones.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/crossbones.png",
         alt: "Cross Bones Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/crossbones.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/crossbones.png",
         alt: "Cross Bones Injured"
       }
     }
@@ -200,12 +200,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/black_panther.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/black_panther.png",
         alt: "Black Panther Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/black_panther.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/black_panther.png",
         alt: "Black Panther Injured"
       }
     }
@@ -218,12 +218,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/killmonger.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/killmonger.png",
         alt: "Killmonger Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/killmonger.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/killmonger.png",
         alt: "Killmonger Injured"
       }
     }
@@ -236,12 +236,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/shuri.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/shuri.png",
         alt: "Shuri Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/shuri.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/shuri.png",
         alt: "Shuri Injured"
       }
     }
@@ -254,12 +254,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/okoye.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/okoye.png",
         alt: "Okoye Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/okoye.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/okoye.png",
         alt: "Okoye Injured"
       }
     }
@@ -272,7 +272,7 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/hulk.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/hulk.png",
         alt: "Hulk Healthy"
       }
     }
@@ -285,12 +285,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/modok.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/modok.png",
         alt: "M.O.D.O.K Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/modok.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/modok.png",
         alt: "M.O.D.O.K Injured"
       }
     }
@@ -303,12 +303,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/venom.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/venom.png",
         alt: "Venom Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/venom.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/venom.png",
         alt: "Venom Injured"
       }
     }
@@ -322,12 +322,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/loki.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/loki.png",
         alt: "Loki Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/loki.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/loki.png",
         alt: "Loki Injured"
       }
     }
@@ -340,12 +340,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/hela.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/hela.png",
         alt: "Hela Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/hela.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/hela.png",
         alt: "Hela Injured"
       }
     }
@@ -358,12 +358,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/thor.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/thor.png",
         alt: "Thor Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/thor.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/thor.png",
         alt: "Thor Injured"
       }
     }
@@ -376,12 +376,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/valkyrie.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/valkyrie.png",
         alt: "Valkyrie Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/valkyrie.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/valkyrie.png",
         alt: "Valkyrie Injured"
       }
     }
@@ -396,12 +396,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/star_lord.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/star_lord.png",
         alt: "Star-Lord Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/star_lord.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/star_lord.png",
         alt: "Star-Lord Injured"
       }
     }
@@ -414,12 +414,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/groot.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/groot.png",
         alt: "Groot Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/groot.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/groot.png",
         alt: "Groot Injured"
       }
     }
@@ -432,12 +432,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/rocket_raccoon.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/rocket_raccoon.png",
         alt: "Rocket Raccoon Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/rocket_raccoon.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/rocket_raccoon.png",
         alt: "Rocket Raccoon Injured"
       }
     }
@@ -450,12 +450,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/nebula.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/nebula.png",
         alt: "Nebula Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/nebula.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/nebula.png",
         alt: "Nebula Injured"
       }
     }
@@ -468,12 +468,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/gamora.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/gamora.png",
         alt: "Gamora Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/gamora.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/gamora.png",
         alt: "Gamora Injured"
       }
     }
@@ -486,12 +486,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/vision.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/vision.png",
         alt: "Vision Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/vision.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/vision.png",
         alt: "Vision Injured"
       }
     }
@@ -504,12 +504,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/winter_soldier.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/winter_soldier.png",
         alt: "Winter Soldier Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/winter_soldier.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/winter_soldier.png",
         alt: "Winter Soldier Injured"
       }
     }
@@ -522,12 +522,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/hawkeye.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/hawkeye.png",
         alt: "Hawkeye Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/hawkeye.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/hawkeye.png",
         alt: "Hawkeye Injured"
       }
     }
@@ -540,12 +540,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/agent_widow.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/agent_widow.png",
         alt: "Black Widow, Agent of S.H.I.E.L.D Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/agent_widow.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/agent_widow.png",
         alt: "Black Widow, Agent of S.H.I.E.L.D Injured"
       }
     }
@@ -559,12 +559,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/corvus_glaive.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/corvus_glaive.png",
         alt: "Corvus Glaive Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/corvus_glaive.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/corvus_glaive.png",
         alt: "Corvus Glaive Injured"
       }
     }
@@ -577,12 +577,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/proxima_midnight.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/proxima_midnight.png",
         alt: "Proxima Midnight Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/proxima_midnight.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/proxima_midnight.png",
         alt: "Proxima Midnight Injured"
       }
     }
@@ -603,12 +603,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/healthy/thanos.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/healthy/thanos.png",
         alt: "Thanos Healthy"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/characters/injured/thanos.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/characters/injured/thanos.png",
         alt: "Thanos Injured"
       }
     }
@@ -620,12 +620,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/infinity_gems/front/mind.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/infinity_gems/front/mind.png",
         alt: "Infinity Gem: Mind"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/infinity_gems/back/mind.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/infinity_gems/back/mind.png",
         alt: "Infinity Gem: Mind"
       }
     }
@@ -637,12 +637,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/infinity_gems/front/power.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/infinity_gems/front/power.png",
         alt: "Infinity Gem: Power"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/infinity_gems/back/power.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/infinity_gems/back/power.png",
         alt: "Infinity Gem: Power"
       }
     }
@@ -654,12 +654,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/infinity_gems/front/time.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/infinity_gems/front/time.png",
         alt: "Infinity Gem: Time"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/infinity_gems/back/time.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/infinity_gems/back/time.png",
         alt: "Infinity Gem: Time"
       }
     }
@@ -671,12 +671,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/infinity_gems/front/soul.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/infinity_gems/front/soul.png",
         alt: "Infinity Gem: Soul"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/infinity_gems/back/soul.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/infinity_gems/back/soul.png",
         alt: "Infinity Gem: Soul"
       }
     }
@@ -688,12 +688,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/infinity_gems/front/space.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/infinity_gems/front/space.png",
         alt: "Infinity Gem: Space"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/infinity_gems/back/space.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/infinity_gems/back/space.png",
         alt: "Infinity Gem: Space"
       }
     }
@@ -705,12 +705,12 @@ export const characters: (Character | InfinityGem)[] = [
     images: {
       front: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/infinity_gems/front/reality.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/infinity_gems/front/reality.png",
         alt: "Infinity Gem: Reality"
       },
       back: {
         src:
-          "https://crisis-protocol.s3.eu-west-2.amazonaws.com/infinity_gems/back/reality.png",
+          "https://d25wsvx6igg4o8.cloudfront.net/infinity_gems/back/reality.png",
         alt: "Infinity Gem: Reality"
       }
     }

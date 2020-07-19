@@ -13,8 +13,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-bottom: 1px solid black;
-  border-right: 1px solid black; */
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .FilterTitle {
@@ -39,12 +39,14 @@
   .CharacterContainer {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
+    height: 660px;
   }
 
   .AvalaibleCharacterContainer {
-    height: 600px;
+    padding-top: 8px;
+    height: 604px;
     overflow: auto;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: none;
+    border-bottom: none;
   }
 }
