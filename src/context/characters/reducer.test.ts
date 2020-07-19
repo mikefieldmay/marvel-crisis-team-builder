@@ -30,15 +30,15 @@ describe("reducer", () => {
   it("removes a character from selected characters", () => {
     const state: State = {
       ...defaultState,
-      availableCharacters: [],
-      selectedCharacters: characters
+      availableCharacters: characters,
+      selectedCharacters: [characters[0]]
     };
     const action = {
       type: REMOVE_CHARACTER_FROM_ROSTER,
       payload: 1
     };
     const newState = reducer(state, action);
-    expect(newState.availableCharacters[0].id).toEqual(1);
+    expect(newState.selectedCharacters.length).toEqual(0);
   });
 
   it("sets a selected character", () => {

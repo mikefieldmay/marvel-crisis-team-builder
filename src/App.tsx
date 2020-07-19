@@ -20,7 +20,7 @@ const AppSkeleton = () => {
     <>
       <Header />
       <CharacterList />
-      <TacticCardList />
+      {/* <TacticCardList /> */}
       <Footer />
       {selectedCharacter && <ImageModal />}
     </>

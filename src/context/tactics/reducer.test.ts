@@ -4,18 +4,18 @@ import {
   SET_SELECTED_TACTIC_CARD,
   REMOVE_TACTIC_CARD_FROM_ROSTER
 } from "./actions";
-import { characters } from "../../fixtures";
+import { tacticCards } from "../../fixtures";
 
 const defaultState: State = {
-  availableCharacters: characters,
-  selectedCharacters: [],
-  selectedCharacter: null
+  availableTacticCards: tacticCards,
+  selectedTacticCards: [],
+  selectedTacticCard: null
 };
 
 describe("reducer", () => {
   it("returns the default state if no actions match", () => {
     const newState = reducer(defaultState, { type: "" });
-    expect(newState.selectedCharacters).toEqual([]);
+    expect(newState.selectedTacticCards).toEqual([]);
   });
 
   it("adds a character to selected characters", () => {
@@ -24,21 +24,21 @@ describe("reducer", () => {
       payload: 1
     };
     const newState = reducer(defaultState, action);
-    expect(newState.selectedCharacters[0].id).toEqual(1);
+    expect(newState.selectedTacticCards[0].id).toEqual(1);
   });
 
   it("removes a character from selected characters", () => {
     const state: State = {
       ...defaultState,
-      availableCharacters: [],
-      selectedCharacters: characters
+      availableTacticCards: [],
+      selectedTacticCards: tacticCards
     };
     const action = {
       type: REMOVE_TACTIC_CARD_FROM_ROSTER,
       payload: 1
     };
     const newState = reducer(state, action);
-    expect(newState.availableCharacters[0].id).toEqual(1);
+    expect(newState.availableTacticCards[0].id).toEqual(1);
   });
 
   it("sets a selected character", () => {
@@ -47,6 +47,6 @@ describe("reducer", () => {
       payload: 1
     };
     const newState = reducer(defaultState, action);
-    expect(newState.selectedCharacter.id).toEqual(1);
+    expect(newState.selectedTacticCard.id).toEqual(1);
   });
 });

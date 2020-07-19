@@ -13,9 +13,9 @@
   margin: 0;
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .FooterContainer {
     position: absolute;
     bottom: 0;
   }
-}
+} */

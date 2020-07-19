@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Character, InfinityGem } from "../../types";
+import { Character, InfinityGem, TacticCard } from "../../types";
 import { ListItem } from "../ListItem/ListItem";
 import { SectionHeading } from "../SectionHeading/SectionHeading";
 
@@ -13,7 +13,7 @@ import * as styles from "./styles.css";
 export const TacticCardList: React.FC = () => {
   const {
     state: {
-      characterState: { selectedCharacters, availableCharacters }
+      tacticCardState: { selectedTacticCards, availableTacticCards }
     },
     dispatch
   } = useCrisisState();
@@ -54,22 +54,19 @@ export const TacticCardList: React.FC = () => {
                   styles.AvalaibleCharacterContainer
                 ].join(" ")}
               >
-                {availableCharacters.map(
-                  (character: Character | InfinityGem) => (
-                    <ListItem key={character.id} character={character} />
-                  )
-                )}
+                {availableTacticCards.map((tacticCard: TacticCard) => (
+                  <h1>{tacticCard.name}</h1>
+                ))}
               </ol>
             </div>
             <CharacterImage />
             <div>
               <SelectedCharactersHeader />
               <ol className={styles.CharacterListContainer}>
-                {selectedCharacters.map(
-                  (character: Character | InfinityGem) => (
-                    <ListItem key={character.id} character={character} />
-                  )
-                )}
+                {selectedTacticCards.map((tacticCard: TacticCard) => (
+                  <h1>{tacticCard.name}</h1>
+                  // <ListItem key={tacticCard.id} character={tacticCard} />
+                ))}
               </ol>
             </div>
           </>

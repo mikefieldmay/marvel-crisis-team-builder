@@ -44,12 +44,8 @@ export const reducer = (state: State, action: Action) => {
       const character = [...state.availableCharacters].find(
         character => character.id === action.payload
       );
-      const updatedAvailableCharacters = [...state.availableCharacters].filter(
-        character => character.id !== action.payload
-      );
       return {
         ...state,
-        availableCharacters: updatedAvailableCharacters,
         selectedCharacters: [...state.selectedCharacters, character]
       };
     case REMOVE_CHARACTER_FROM_ROSTER:
@@ -61,14 +57,12 @@ export const reducer = (state: State, action: Action) => {
       );
       return {
         ...state,
-        availableCharacters: [...state.availableCharacters, characterToRemove],
         selectedCharacters: updatedSelectedCharacters
       };
     case SET_SELECTED_CHARACTER:
-      const selectedCharacter = [
-        ...state.availableCharacters,
-        ...state.selectedCharacters
-      ].find(character => character.id === action.payload);
+      const selectedCharacter = state.availableCharacters.find(
+        character => character.id === action.payload
+      );
       return {
         ...state,
         selectedCharacter: selectedCharacter
